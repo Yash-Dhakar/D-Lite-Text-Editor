@@ -17,7 +17,7 @@ main_application.title('D-Lite Text Editor ')
 main_application.wm_iconbitmap('icon.ico')
 
 ########################main_menu#########################################
-#%%%%%%%%%%%%%%%%%%%%%%%end_main menu%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 #creating main menu
 main_menu=tk.Menu()
 #file icon
@@ -89,8 +89,7 @@ main_menu.add_cascade(label='File',menu=file)
 main_menu.add_cascade(label='Edit',menu=edit)
 main_menu.add_cascade(label='View',menu=view)
 main_menu.add_cascade(label='Colour Theme',menu=color_theme)
-#Adding Commands
-
+#%%%%%%%%%%%%%%%%%%%%%%%end_main menu%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
